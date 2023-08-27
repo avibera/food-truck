@@ -1,0 +1,45 @@
+.about-container {
+    position: relative;
+    height: 467px;
+    width: 100%;
+    background-color: #F7F8FB;
+    margin-top: 19rem;
+}
+
+.aboutImage {
+    height: 100%;
+    margin-left: 260px;
+}
+
+.aboutUs {
+    width: 447px;
+    height: 100%;
+    margin-top: 100px;
+
+    &-p1 {
+        font-family: 'Kolage Demi Bold';
+        font-size: 62px;
+        font-weight: 700;
+        line-height: 69px;
+        color: #0E2368;
+    }
+
+    &-p2 {
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 16.44px;
+        line-height: 27.41px;
+        color: #444957;
+    }
+
+    &-button {
+        background-color: #E23744;
+        width: 190px;
+        height: 63px;
+        border-radius: 34px;
+        margin-right: 20px;
+     margin-top: 20px;
+    }
+
+}
+
