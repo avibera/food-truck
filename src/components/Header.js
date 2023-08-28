@@ -11,22 +11,7 @@ const Headder = () => {
         <header className="header">
             <div>
                 <Row>
-                    <Col lg={6}>
-                        <div className="logo">
-                            <img
-                                className="img"
-                                src={logo}
-                            />
-                        </div>
-                        <div className="title-container">
-                            <p>Discover The Best Food and Drinks</p>
-                        </div>
-                        <div className="description">
-                            <p>Naturally made Healthcare Products for the better care & support of your body.</p>
-                        </div>
-                        <Button className="button">Explore Now!</Button>
-                    </Col>
-                    <Col lg={6} >
+                    <Col lg={6} md={6} sm={12} className="order-md-2">
                         <div className="vactor-Container">
                             <img
                                 className="vactor-One"
@@ -34,6 +19,7 @@ const Headder = () => {
                                 alt="Background"
                             />
                             <img
+                                className="vactor-Two"
                                 src={VectoreTwo}
                                 alt="Top Picture"
                                 style={{
@@ -45,6 +31,23 @@ const Headder = () => {
                                     objectFit: 'cover',
                                 }}
                             />
+                        </div>
+                    </Col>
+                    <Col lg={6} md={6} sm={12} xs={12} className="order-md-1">
+                        <div className="vactor-Container-1">
+                            <div className="vactor-Container-1-logo">
+                                <img
+                                    className="img"
+                                    src={logo}
+                                />
+                            </div>
+                            <div className="vactor-Container-1-title">
+                                <p>Discover The <span className="span">Best</span> Food and Drinks</p>
+                            </div>
+                            <div className="vactor-Container-1-description">
+                                <p>Naturally made Healthcare Products for the better care & support of your body.</p>
+                            </div>
+                            <Button className="vactor-Container-1-button">Explore Now!</Button>
                         </div>
                     </Col>
                 </Row>

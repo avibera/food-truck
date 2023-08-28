@@ -1,0 +1,80 @@
+@import '../variables//variables.scss';
+
+.head-text {
+    color: #0E2368;
+    font-family: 'Kolage Demi Bold';
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 69px;
+
+    @include respond(phone) {
+        font-size: 80px;
+            font-weight: 500px;
+            line-height: 1.2;
+    }
+}
+
+.carousel-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.prev-button,
+.next-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.prev-button:hover,
+.next-button:hover {
+    color: #F7F8FB;
+    background-color: #E23744;
+}
+
+.carousel-container {
+   width: 1400px;
+    margin: 0 auto;
+    padding: 30px;
+    justify-content: center;
+    padding-top: 200px;
+
+    @include respond(phone) {
+        width: 1000px;
+    }
+  }
+
+.prev-button{
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    color: #555;
+    background-color: #F7F8FB;
+    border: 1px solid rgb(214, 208, 208);
+    padding: 8px 16px;
+    @include respond(phone) {
+        height: 76px;
+        width: 220px;
+        font-size: 30px;
+        border-radius: 40px;
+    }
+}
+.next-button{
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    color: #555;
+    background-color: #F7F8FB;
+    border: 1px solid rgb(214, 208, 208);
+    padding: 8px 16px;
+    @include respond(phone) {
+        height: 76px;
+        width: 220px;
+        font-size: 30px;
+        border-radius: 40px;
+    }
+}

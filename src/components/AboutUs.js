@@ -2,19 +2,20 @@ import React from "react";
 import '../style/AboutUs.scss'
 import { Row, Col, Button } from 'reactstrap'
 import girl from '../Assets/girl.jpg'
+
 const AboutUs = () => {
     return (
         <div className="about-container">
             <Row>
-                <Col lg={6} md={6}>
+                <Col lg={6} md={6} sm={6}>
                     <div>
                         <img
-                            className="aboutImage"
+                            className="about-container-image"
                             src={girl}
                         />
                     </div>
                 </Col>
-                <Col lg={6} md={6}>
+                <Col lg={6} md={6} sm={6}>
                     <div className="aboutUs">
                         <p className="aboutUs-p1">About Us</p>
                         <p className="aboutUs-p2">About Us

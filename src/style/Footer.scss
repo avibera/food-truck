@@ -1,0 +1,60 @@
+@import '../variables/variables.scss';
+
+.footer {
+    width: 1680px;
+    height: 350px;
+    background-color: #F7F8FB;
+
+    @include respond(phone) {
+        width: 1100px;
+        height: 1350px;
+    }
+
+    &-image {
+        justify-content: center;
+        margin-top: 60px;
+        padding-left: 100px;
+        padding-top: 50px;
+        height: 170px;
+
+        @include respond(phone) {
+            margin-left: 350px;
+        }
+    }
+
+    &-headings {
+        color: #0E2368;
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 50px;
+
+        @include respond(phone) {
+            font-size: 40px;
+            font-weight: 600;
+            padding-top: 30px;
+            margin-left: 60px;
+        }
+    }
+
+    &-description {
+        height: 150px;
+        width: 300px;
+
+        @include respond(phone) {
+            font-size: 30px;
+            height: 150px;
+            width: 600px;
+            padding-top: 40px;
+            margin-left: 60px;
+        }
+    }
+
+    &-headings{
+        padding-top: 60px;
+        @include respond(phone) {
+            margin-top: 100px;
+        }
+    }
+    
+
+}
