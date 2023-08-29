@@ -25,7 +25,7 @@ const Headder = () => {
                   width: "100%",
                   height: "100%",
                   objectFit: "cover",
-                  marginTop: '-40px'
+                  marginTop: '-20px'
                 }}
               />
             </div>
